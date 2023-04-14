@@ -7,9 +7,15 @@ body{
     scroll-behavior: smooth;
 }
 
-ul{
+.main{
+    background-image: inherit;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.wrapper{
     display: flex;
-    list-style: none;
     position: absolute;
     width: 700px;
     height: 400px;
@@ -17,13 +23,17 @@ ul{
     left: 100px;
     background-color: white;
     border: 0.5px solid rgb(231, 219, 219);
+    padding: 15px;
 }
 
-ul li{
-    padding: 10px;
+.toggleContainer{
+    width: 100%;
+    height: max-content;
+    border-bottom: 1px solid rgb(231, 219, 219);
+    padding: 8px;
 }
 
-ul li .links{
+.toggleButtons{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,51 +44,8 @@ ul li .links{
     padding: 5px;
     height: 100px;
     width: 100%;
-    
 }
 
-.content{
-    width: 100%;
-    border-top: 1px solid rgb(231, 219, 219);
-    padding: 8px;
-}
-
-/* .links .content{
-    display: contents;
-    
-}
-
-.links .content:nth-child(2){
-    display: none;
-}
-
-.links .content:last-child{
-    display: none;
-}
-
-.links .content{
-    border-top: 1px solid rgb(231, 219, 219);
-    display: block;
-}
-
-.links:focus-within .content{
-    display: block !important;
-} */
-
-#drive{
-    background: violet;
-    width: 100%;
-    height: 100vh;
-}
-
-#eat{
-    background: blue;
-    width: 100%;
-    height: 100vh;
-}
-
-#ride{
-    background: green;
-    width: 100%;
-    height: 100vh;
+.toggleButtons:focus{
+    border-bottom: 2px solid black;
 }
