@@ -54,7 +54,7 @@ const Home = () => {
             {data.map((item) => {
               return (
                 <div className="items" key={item.id} onClick={() => setSelectedData(item)}>
-                  <img className={selectedData.id === "product-1 && product-3" ? "img" : null} src={item.toggleImage} alt="" />
+                  <img className={item.id === "product-1" ? "img" : null} src={item.toggleImage} alt="" />
                   <p>{item.title}</p>
                   {selectedData.id === item.id ? (
                     <span className="tab-active" />
