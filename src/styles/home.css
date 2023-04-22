@@ -18,8 +18,7 @@ body {
 .image {
   position: absolute;
   height: 120vh;
-  width: 100vw;
-  aspect-ratio: 16/9;
+  width: 100%;
   object-fit: cover;
   top: 0;
   left: 0;
@@ -27,13 +26,11 @@ body {
 
 .main {
   background-color: white;
-  width: 45vw;
+  width: 45%;
   height: auto;
   position: absolute;
-  
   left: 5vw;
   top: 20vh;
-  overflow: hidden;
 }
 
 .tabs {
@@ -41,17 +38,22 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
+  /* gap: 1rem; */
   border-bottom: 1px solid rgb(231, 219, 219);
   cursor: pointer;
   transition-property: background;
   transition-duration: 200ms;
   transition-timing-function: cubic-bezier(0, 0, 1, 1);
+  padding: 35px;
 }
 
 .items{
   width: 60px;
-  margin: 20px 30px;
+  /* margin: 20px 30px; */
+}
+
+.img{
+  padding-left: 8px;
 }
 
 /* work on this.not yet done */
@@ -210,7 +212,13 @@ body {
 
 .coverImage{
   
- 
+  
+    position: absolute;
+    height: 120vh;
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
 }
 
 /* .main{
