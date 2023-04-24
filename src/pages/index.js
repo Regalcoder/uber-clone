@@ -54,7 +54,7 @@ const Home = () => {
             {data.map((item) => {
               return (
                 <div className="items" key={item.id} onClick={() => setSelectedData(item)}>
-                  <img className={item.id === "product-1" ? "img" : null} src={item.toggleImage} alt="" />
+                  <img className={item.id !== "product-2" ? "img" : null} src={item.toggleImage} alt="" />
                   <p>{item.title}</p>
                   {selectedData.id === item.id ? (
                     <span className="tab-active" />
@@ -98,7 +98,73 @@ const Home = () => {
           </div>
         </div>
       </section>
-     
+      <section className="container2">
+        <img className="backImage2" src="empirestate.jpg" alt=""/>
+        <div className="subContainer">
+          <h1 className="headerText">Uber for Business</h1>
+          <p className="paraText">Transform the way your company moves and feeds its people</p>
+          <Link to='/'>
+              <button className="seeButton">see how</button>
+          </Link>
+        </div>
+        
+      </section>
+      <section className="container3">
+        <h1 className="headertext">Focused on safety, wherever you go</h1>
+        <div className="subContainerFlex">
+          <div className="flex1">
+            <img className="image1" src="Safety_Home_Img2x.png" alt=""/>
+            <h3 className="midHeader">Our commitment to your safety</h3>
+            <p className="midText">
+              With every safety feature and every standard in our Community 
+              Guidelines, we're committed to helping to create a safe environment 
+              for our users.
+            </p>
+            <div className="linkContainer">
+              <Link className="links" to='#'>Read about our Community Guidelines</Link>
+              <Link className="links" to='#'>See all safety features</Link>
+            </div>
+          </div>
+          <div className="flex2">
+            <img className="image1" src="Cities_Home_Img2x.webp" alt=""/>
+            <h3 className="midHeader">Seting 10,000+ cities in motion</h3>
+            <p className="midText">
+              The app is available in thousands of cities worldwide,
+              so you can request a ride even when you're far from home
+            </p>
+            <Link className="links2" to='#'>View all cities</Link>
+          </div>
+        </div>
+        <div className="subContainer3">
+          <div className="sub1">
+            <img className="people" src="person-multiple-outlined.svg" alt=""/>
+            <h4 className="about">About us</h4>
+            <p className="find">
+              Find out how we started, what drives us,
+              and how we're reimagining how the world moves.
+            </p>
+            <Link className="links2">Learn more about Uber</Link>
+          </div>
+          <div className="sub2">
+            <img className="people" src="document-outlined.svg" alt=""/>
+            <h4 className="about">Newsroom</h4>
+            <p className="find">
+              See announcements about our latest releases,
+              initiative, and partnerships.
+            </p>
+            <Link className="links2">Go to Newsroom</Link>
+          </div>
+          <div className="sub3">
+          < img className="people" src="home-outlined.svg" alt=""/>
+            <h4 className="about">Global citizenship</h4>
+            <p className="find">
+              Read about our commitment to making a 
+              positive impact in the cities we serve
+            </p>
+            <Link className="links2">See our partnerships</Link>
+          </div>
+        </div>
+      </section>
     </div>  
     </>
   );
