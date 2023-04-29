@@ -358,4 +358,179 @@ body {
   color: #6e6868;
 }
 
+.container4{
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(248, 246, 241);
+  padding: 30px 0 50px;
+}
+
+.containerFlex{
+  display: flex;
+  width: 90%;
+  height: fit-content;
+  gap: 20px;
+  margin: auto;
+}
+
+.containerFlex1{
+  width: 45%;
+  height: 190px;
+  background-color: white;
+  text-decoration: none;
+}
+
+.flex{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 20px auto;
+  background-color: #0c5449;
+  width: 45%;
+  height: 190px;
+}
+
+.heading{
+  margin: 20px 0 30px 63px;
+  width: fit-content;
+  font-size: xx-large;
+}
+
+.arrowImage{
+  width: 30px;
+  margin-top: 10px;
+} 
+
+.noLink{
+  color: black;
+}
+
+/* arrow hover effect */
+.arrow {
+  color: #0c5449;
+  background-color: inherit;
+  padding-top: 0px;
+  width: fit-content;
+  height: fit-content;
+}
+
+ .arrow::after {
+  display: inline-block;
+  padding-top: 8px;
+  content: url('/public/thin-icon-arrow.png');
+  transition: transform 0.1s ease-out;
+}
+
+.arrow:hover {
+  background-color: inherit;
+}
+
+.arrow:hover::after {
+  transform: translateX(20px);
+}
+
+.container5{
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerFlex2{
+  width: 49%;
+  height: 150px;
+  border: 1px solid black;
+  background-color: #393636;
+}
+
+.subCont{
+  width: 400px;
+  height: 80px;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  
+}
+
+.border{
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.container5{
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+
+/* arrow moving animation  */
+
+/* background styling */
+.arrow-button {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  color: black;
+  background-color: inherit;
+  padding-bottom: 30px;
+  transition: all .3s ease;
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
+  font-size: 24px;
+  border-bottom: 1px solid black;
+  margin: 60px auto ;
+  text-decoration: none;
+}
+
+/* the arrow head styling */
+.arrow-button > .arrow2 {
+  width: 16px;
+  height: 16px;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  position: relative;
+  transform: rotate(-45deg);
+  margin: 0 6px;
+  transition: all .3s ease;
+}
+
+.arrow-button > .arrow2::before {
+  display: block;
+  background-color: rgb(108, 106, 106);
+  width: 2px;
+  transform-origin: bottom right;
+  height: 3px;
+  position: absolute;
+  opacity: 0;
+  bottom: calc(-2px / 2);
+  transform: rotate(45deg);
+  transition: all .3s ease;
+  content: "";
+  right: 0;
+}
+
+.arrow-button:hover > .arrow2 {
+  transform: rotate(-45deg) translate(4px, 4px);
+  border-color: rgb(108, 106, 106);
+}
+
+.arrow-button:hover > .arrow2::before {
+  opacity: 2;
+  width: 120px;
+}
+
+.arrow-button:hover {
+  background-color: white;
+  color: rgb(108, 106, 106);
+}
+
+
+
+
+
+
 

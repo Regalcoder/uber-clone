@@ -1,4 +1,5 @@
 import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 import "../styles/home.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
@@ -165,6 +166,38 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section className="container4">
+        <h1 className="heading">There's more to love in the apps</h1>
+        <div className="containerFlex">
+          
+            <Link className="containerFlex1" to='https://skuo.app.link/Wnc0AB7j0ib?%243p=a_custom_47734&%24uri_redirect_mode=1&uclick_id=138ae22a-f799-4b38-b262-3730b5c3aa13&~campaign=uber-com-homepage-block&~tune_publisher_sub1=a5ad1b1d-fff6-4e2a-96f9-1c0fb579b5b9'>
+                <div className="flex arrow">
+                  <img height='155px' src="driver-app-logo.webp" alt=""/>
+                  <h3 className="noLink">Download the driver app</h3>
+                </div>
+            </Link>
+          
+          
+            <Link className="containerFlex1" to='https://ocie.app.link/6qlyRoi7dfb?%243p=a_custom_47734&uclick_id=138ae22a-f799-4b38-b262-3730b5c3aa13&~tune_publisher_sub1=a5ad1b1d-fff6-4e2a-96f9-1c0fb579b5b9'>
+                <div className="flex arrow">
+                  <img height='155px' src="rider-app-logo.webp" alt=""/>
+                  <h3 className="noLink">Download the uber app</h3>
+                </div>
+            </Link>
+          </div>
+      </section>
+      <section className="container5">
+        <Link to='#' class="arrow-button">
+          <h1>Sign up to drive</h1>
+          <span class="arrow2"></span>
+        </Link>
+        <Link to='#' class="arrow-button">
+          <h1>Sign up to ride</h1>
+          <span class="arrow2"></span>
+        </Link>
+      </section>
+      <Footer/>
+     
     </div>  
     </>
   );
