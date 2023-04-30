@@ -13,7 +13,7 @@ const Footer = () => {
             <section className='footerFlex'>
                 <div className='footerMenu'>
                     <h3 className='footerHeader'>Company</h3>
-                    <Link className='footerMenuItems' to=''>About us</Link>
+                    <Link className='footerMenuItems' to='/aboutUs'>About us</Link>
                     <Link className='footerMenuItems' to=''>Our offerings</Link>
                 </div>
                 <div className='footerMenu'>

@@ -16,7 +16,11 @@ const Navbar = () => {
                                     </svg>
                                 </button>
                                 <div className="dropdown-content">
-                                    <Link to="#">About us</Link>
+                                    <Link to="/aboutUs">About us</Link>
+                                    <Link to="/aboutUs">About us</Link>
+                                    <Link to="/aboutUs">About us</Link>
+                                    <Link to="/aboutUs">About us</Link>
+                                    <Link to="/aboutUs">About us</Link>
                                 </div>
                         </div>
                         
