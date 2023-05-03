@@ -1,0 +1,129 @@
+section{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 0;
+    align-items: center;
+}
+
+.formHeader{
+    font-weight: 400;
+}
+
+.ForminputBox{
+    background-color: rgb(234, 231, 231);
+    border-radius: 10px;
+    margin-top: 15px;
+    width: 400px;
+    font-size: large;
+    padding-left: 20px;
+    height: 60px;
+    border: none;
+}
+
+.ForminputBox:focus{
+    border: none;
+    outline: none;
+  }
+
+.formButton{
+    background-color: black;
+    border-radius: 10px;
+    width: 420px;
+    color: white;
+    height: 50px;
+    font-size: large;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.formButton:hover{
+    background-color: rgb(43, 42, 42);
+}
+
+.paragraphLine{
+    width: 32%; 
+    text-align: center; 
+    border-bottom: 1px solid rgb(174, 170, 170); 
+    line-height: 0.1em;
+    margin: 30px 0; 
+    color: rgb(174, 170, 170);
+}
+
+.borders2{
+    background:#fff; 
+    padding:0 10px;
+}
+
+.noLine{
+    text-decoration: none;
+}
+
+.googleButton{
+    background-color: rgb(234, 231, 231);
+    border-radius: 10px;
+    width: 420px;
+    color: black;
+    height: 50px;
+    font-size: large;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.googleButton:hover{
+    background-color: rgb(213, 211, 211);
+}
+
+.googleButton2{
+    background-color: rgb(234, 231, 231);
+    border-radius: 10px;
+    width: 420px;
+    color: black;
+    height: 50px;
+    font-size: large;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px 0 0;
+    cursor: pointer;
+}
+
+.googleButton2:hover{
+    background-color: rgb(213, 211, 211);
+}
+
+.googleButton3{
+    background-color: rgb(234, 231, 231);
+    border-radius: 10px;
+    width: 420px;
+    color: black;
+    height: 50px;
+    font-size: large;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.googleButton3:hover{
+    background-color: rgb(213, 211, 211);
+}
+
+.termsText{
+    width: 32%;
+    font-size: small;
+    color: rgb(125, 122, 122);
+}
+
+.lastLink{
+    color: black;
+}

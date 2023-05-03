@@ -71,8 +71,8 @@ const Home = () => {
               <>
                 <p className="texts">{selectedData.description}</p>
                 <div className={selectedData.id === "product-1" ? "column" : "row"}>
-                  <button className="button">{selectedData.button}</button>
-                  <Link className="link" to={selectedData.to}>{selectedData.link}</Link>
+                  <Link to='/form'><button className="button">{selectedData.button}</button></Link>
+                  <Link className="link" to='/form'>{selectedData.link}</Link>
                 </div>
               </>
             ) : (
@@ -91,8 +91,8 @@ const Home = () => {
                  
                  <input className="inputBox2" type="text" placeholder="Enter destination"/>
                  <div className="buttonContainer">
-                     <button className="button1">{selectedData.button1}</button>
-                     <button className="button2">{selectedData.button2}</button>
+                     <Link to='/form'><button className="button1">{selectedData.button1}</button></Link>
+                     <Link to='/form'><button className="button2">{selectedData.button2}</button></Link>
                  </div>
               </>
             )}
