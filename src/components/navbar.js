@@ -24,7 +24,7 @@ const Navbar = () => {
                                 </div>
                         </div>
                         
-                        <Link to=''><button className='safety'>Safety</button></Link>
+                        <Link to='/safety'><button className='safety'>Safety</button></Link>
                         <Link to=''><button className='help'>Help</button></Link>
                     </div>
                         

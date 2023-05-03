@@ -5,11 +5,7 @@
     height: 70px;
     color: white;
     display: flex;
-    z-index: 2;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    
 }
 
 .menu1{

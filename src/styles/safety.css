@@ -1,0 +1,166 @@
+
+ body{
+  width: 100%;
+  height: auto;
+  color: black;
+ }
+
+  .section1{
+    width: 100%;
+    height: auto;
+  }
+
+  .container1{
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+    width: 90%;
+    gap: 120px;
+  }
+  .subContainer1{
+    width: 38%;
+  }
+
+  .headerText1{
+    font-size: xxx-large;
+    color: rgb(65, 63, 63);
+    margin-bottom: 40px;
+  }
+
+  .paraTexts1{
+    line-height: 25px;
+  }
+
+  .nextSection{
+    width: 100%;
+    height: auto;
+  }
+
+  .nextSub{
+    width: 50%;
+    height: auto;
+    margin: 150px 50px;
+  }
+
+  .headertexts2{
+    font-size: xx-large;
+  }
+
+  .nextSection2{
+    width: 92%;
+    margin: auto auto 50px;
+  }
+
+  .headerTexts3{
+    font-size: xx-large;
+    margin-bottom: 30px;
+    color: rgb(65, 63, 63);
+  }
+
+  .subFlex{
+    display: flex;
+    gap: 40px;
+  }
+
+  .subContainers{
+    width: 60%;
+  }
+
+  .subHeader{
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  .paragraphs{
+    line-height: 25px;
+  }
+
+  .nextsection3{
+    width: 92%;
+    margin: 140px auto;
+  }
+
+  .headerTexts4{
+    font-size: xx-large;
+    color: rgb(65, 63, 63);
+    margin-bottom: 30px;
+  }
+
+  .subFlex2{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .box{
+    height: 500px;
+    width: min-content;
+  }
+
+  .subHeaders{
+     font-weight: 500;
+     color: rgb(65, 63, 63);
+     margin: 10px 0;
+  }
+
+  .nextSection4{
+    height: 300px;
+    background-color: #276EF1;
+    color: white;
+  }
+
+  .subcontainers2{
+    width: 85%;
+    margin: auto;
+    height: 300px;
+    padding-top: 100px;
+  }
+
+  .subHeaders2{
+    font-weight: 500;
+    margin-bottom: 30px
+  }
+
+  .subFlex3{
+    display: flex;
+    width: 90%;
+    margin: 70px auto;
+    gap: 70px;
+  }
+
+  .subcontainers3{
+    margin: auto;
+    width: 38%;
+  }
+
+  .headerTexts5{
+    font-weight: 600;
+    font-size: xx-large;
+    margin-bottom: 20px;
+  }
+
+  .paragraphs3{
+    line-height: 25px;
+  }
+
+  .nextSection5{
+    display: flex;
+    gap: 180px;
+    height: 25vh;
+    padding: 150px 60px;
+  }
+
+  .imagePad{
+    margin-bottom: 10px;
+  }
+
+  .subheaderPad{
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+
+  .finalParag{
+    margin: 0 60px 40px;
+  }
+  
+  
