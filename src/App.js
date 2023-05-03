@@ -1,5 +1,4 @@
-import {BrowserRouter as Router, Route, Routes, Form } from 'react-router-dom'
-import './App.css';
+import {BrowserRouter as Router, Route, Routes, Form } from 'react-router-dom';
 import Home from './pages';
 import AboutUs from './pages/aboutUs';
 import Safety from './pages/safety';

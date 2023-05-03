@@ -5,7 +5,7 @@ const Register = () => {
     return ( 
         <>
         <body>
-            <section>
+            <section className="formSection">
                <h1 className="formHeader">What's your phone number or email?</h1>
                <input className="ForminputBox" placeholder="Enter phone number or email"/>
                <Link to='/'><button className="formButton">Continue</button></Link>
