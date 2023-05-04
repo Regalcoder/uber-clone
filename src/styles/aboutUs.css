@@ -1,4 +1,9 @@
-.backImage{
+.aboutBody{
+    width: 100%;
+}
+
+
+.backImageAbout{
     width: 100%;
     background-image: url('/public/Uber-Chicago-Outside.webp');
     height: 100vh;

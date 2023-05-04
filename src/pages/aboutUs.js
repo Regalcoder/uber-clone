@@ -7,8 +7,8 @@ const AboutUs = () => {
     return ( 
         <>
           <Navbar />
-            <body>
-                <section className="backImage">
+            <body className="aboutBody">
+                <section className="backImageAbout">
                     <h1 className="header1">About us</h1>
                 </section>
                 <section className="section2">
