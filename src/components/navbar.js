@@ -1,7 +1,43 @@
 import '../styles/navbar.css'
 import { Link } from 'react-router-dom';
+import LoginModal from '../components/loginModal';
+import { useState } from 'react';
+import SignupModal from './signupModal';
 
 const Navbar = () => {
+
+    // login modal state hook
+    const [modal, setLoginModal] = useState(false);
+
+    // sign up modal state hook
+    const [modal2, setLoginModal2] = useState(false);
+
+    // conditional statement to check for when login modal is open or closed so as to toggle scroll bar
+    const Toggle = () => {
+        setLoginModal(true)
+        document.body.style.overflow = 'hidden';
+        
+    };
+
+    const closeModal = () => {
+        setLoginModal(!modal)
+
+        document.body.style.overflow = 'unset';
+    }
+
+
+    // conditional statement to check for when signup modal is open or closed so as to toggle scroll bar
+    const Toggle2 = () => {
+        setLoginModal(true)
+        document.body.style.overflow = 'hidden';
+        
+    };
+
+    const closeModal2 = () => {
+        setLoginModal(!modal)
+
+        document.body.style.overflow = 'unset';
+    }
 
     return ( 
         <>
@@ -25,12 +61,11 @@ const Navbar = () => {
                         </div>
                         
                         <Link to='/safety'><button className='safety'>Safety</button></Link>
-                        <Link to=''><button className='help'>Help</button></Link>
                     </div>
                         
                 </div>   
                 <div className='menu2'> 
-                    <Link to=''>
+                    {/* <Link to=''>
                         <button className='eng'>
                             <svg className='earth' width="16" height="16" viewBox="0 0 24 24" fill="none">
                                 <path d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1Zm8 11c0 .7-.1 1.4-.3 2-.6-1.5-1.6-3.1-3-4.7l1.8-1.8c1 1.3 1.5 2.8 1.5 4.5ZM6.5 6.5c1.3 0 3.6.8 6 2.9l-3.2 3.2C7.1 9.8 6.5 7.5 6.5 6.5Zm8.1 5c2.3 2.7 2.9 5 2.9 6-1.3 0-3.6-.8-6-2.9l3.1-3.1Zm1.9-6.1-1.9 1.9c-1.6-1.4-3.2-2.4-4.7-3 .7-.2 1.3-.3 2-.3 1.8 0 3.3.5 4.6 1.4ZM4 12c0-.7.1-1.4.3-2 .6 1.5 1.6 3.1 3 4.7l-1.8 1.8C4.5 15.2 4 13.7 4 12Zm3.5 6.6 1.9-1.9c1.6 1.4 3.2 2.4 4.7 3-.7.2-1.3.3-2 .3-1.8 0-3.3-.5-4.6-1.4Z" fill="currentColor">
@@ -39,7 +74,7 @@ const Navbar = () => {
                             EN
                         </button>
                         
-                    </Link>
+                    </Link> */}
 
                     <div className="dropdown">
                                 <button className="dropbtn2">
@@ -52,7 +87,7 @@ const Navbar = () => {
                                 </button>
                                 <div className="dropdown-content">
                                     <Link  to="/aboutUs">
-                                        <div className='dropdownFlex'>
+                                        <div className='dropdownFlexMenu'>
                                             <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
                                                 <title>Money</title>
                                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M1 20V4h22v16H1Zm16-6h3V7H7v3H4v7h13v-3Zm-2-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" fill="currentColor">
@@ -62,8 +97,8 @@ const Navbar = () => {
                                         </div>
                                          
                                     </Link>
-                                    <Link className='dropdownFlex' to="/aboutUs">
-                                        <div className='dropdownFlex'>
+                                    <Link to="/aboutUs">
+                                        <div className='dropdownFlexMenu'>
                                             <img width='14px' src='car-front-outlined.svg' alt='' />
                                             Ride
                                         </div>
@@ -80,8 +115,8 @@ const Navbar = () => {
                                         </div>
                                          
                                     </Link>
-                                    <Link className='dropdownFlexMenu' to="/aboutUs">
-                                        <div className='dropdownFlex'>
+                                    <Link to="/aboutUs">
+                                        <div className='dropdownFlexMenu'>
                                             <img width='14px' src='car-front-outlined.svg' alt='' />
                                             Ride
                                         </div>
@@ -91,11 +126,15 @@ const Navbar = () => {
                                 </div>
                         </div>
                     
-                    <Link to=''><button className='help'>Log In</button></Link>
-                    <Link to=''><button className='signUp'>Sign Up</button></Link>
+                    <button onClick={() => Toggle()} className='help'>Log In</button>
+                    <button onClick={() => Toggle2()}  className='signUp'>Sign Up</button>
                 </div> 
            </div>
-                 
+           {/* the show={modal sets the modal jsx to become equal to the use state initial modal defined  in the hook on line 7} */}
+           {/* the close which carries an onclick event from the modal jsx is set equal to the toggle function in line 8 where we have set the final state of the modal to false. */}
+           {/* the {} symbol or curly braces is where we represent non jsx elements within a jsx body */}
+           <LoginModal show={modal} title="My Modal" close={closeModal} />
+           <SignupModal show2={modal2} title="My Modal" close2={closeModal2} />
         
         </>
      );

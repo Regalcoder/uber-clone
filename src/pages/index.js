@@ -74,9 +74,10 @@ const Home = () => {
                   <Link to='/form'><button className="button">{selectedData.button}</button></Link>
                   <Link className="link" to='/form'>{selectedData.link}</Link>
                 </div>
-              </>
-            ) : (
-              <>
+              </>  
+            ) : (     
+              <>   
+              {/* the bracket used above is used to capture the conditional statement that must be carried out when a condition is reached. everything contained in the bracket is treated as single */}
                  <div className="inputContainer">
                     <input className="inputBox" type="text" placeholder="Enter pickup location"/>
                         <Link className="sendIcon">
