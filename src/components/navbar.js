@@ -86,14 +86,14 @@ const Navbar = () => {
                                 Products
                                 </button>
                                 <div className="dropdown-content">
-                                    <Link  to="/aboutUs">
+                                    <Link  to="/">
                                         <div className='dropdownFlexMenu'>
-                                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
-                                                <title>Money</title>
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 20V4h22v16H1Zm16-6h3V7H7v3H4v7h13v-3Zm-2-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" fill="currentColor">
-                                                </path>
-                                            </svg>
-                                            Money
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                            <title>Home</title>
+                                            <path d="M12 1 2 10.1V23h20V10.1L12 1Zm7 19h-5v-6h-4v6H5v-8.6L12 5l7 6.4V20Z" fill="currentColor">
+                                            </path>
+                                        </svg>
+                                            Home
                                         </div>
                                          
                                     </Link>
@@ -114,13 +114,6 @@ const Navbar = () => {
                                             Money
                                         </div>
                                          
-                                    </Link>
-                                    <Link to="/aboutUs">
-                                        <div className='dropdownFlexMenu'>
-                                            <img width='14px' src='car-front-outlined.svg' alt='' />
-                                            Ride
-                                        </div>
-                                        
                                     </Link>
                                     
                                 </div>
