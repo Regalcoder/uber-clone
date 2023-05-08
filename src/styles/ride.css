@@ -1,0 +1,47 @@
+.rideSection{
+    width: 100%;
+    height: 100vh;
+}
+
+.rideFlex{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.rideContainer1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.rideContainer2{
+    width: 40%;
+}
+
+.rideHeader1{
+    font-size: xxx-large;
+    margin-bottom: 20px;
+}
+
+.rideButtonContainer{
+    width: fit-content;
+    height: auto;
+    margin-top: 30px;
+}
+
+.rideButton{
+    width: 160px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    height: 55px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.rideButton:hover{
+    background-color: rgb(28, 27, 27);
+}

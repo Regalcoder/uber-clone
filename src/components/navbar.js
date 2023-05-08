@@ -97,14 +97,14 @@ const Navbar = () => {
                                         </div>
                                          
                                     </Link>
-                                    <Link to="/aboutUs">
+                                    <Link to="/ride">
                                         <div className='dropdownFlexMenu'>
                                             <img width='14px' src='car-front-outlined.svg' alt='' />
                                             Ride
                                         </div>
                                         
                                     </Link>
-                                    <Link  to="/aboutUs">
+                                    <Link  to="/money">
                                         <div className='dropdownFlexMenu'>
                                             <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
                                                 <title>Money</title>
