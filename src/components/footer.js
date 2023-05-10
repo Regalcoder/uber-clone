@@ -5,7 +5,7 @@ const Footer = () => {
     return ( 
         <>
           <footer>
-            <Link to='' className='Uber'>Uber</Link>
+            <Link to='/' className='Uber'>Uber</Link>
             <div className='cont'>
                <Link className='visit' to=''>Visit Help Center</Link>
             </div>
@@ -18,12 +18,12 @@ const Footer = () => {
                 </div>
                 <div className='footerMenu'>
                     <h3 className='footerHeader'>Products</h3>
-                    <Link className='footerMenuItems' to=''>Ride</Link>
-                    <Link className='footerMenuItems' to=''>Drive</Link>
+                    <Link className='footerMenuItems' to='/ride'>Ride</Link>
+                    <Link className='footerMenuItems' to='/money'>Money</Link>
                 </div>
                 <div className='footerMenu'>
                     <h3 className='footerHeader'>Global citizenship</h3>
-                    <Link className='footerMenuItems' to=''>safety</Link>
+                    <Link className='footerMenuItems' to='/safety'>Safety</Link>
                 </div>
                 <div className='footerMenu'>
                     <h3 className='footerHeader'>Travel</h3>

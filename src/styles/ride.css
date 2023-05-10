@@ -45,3 +45,187 @@
 .rideButton:hover{
     background-color: rgb(28, 27, 27);
 }
+
+.rideContainer3{
+    width: 90%;
+    height: fit-content;
+    margin: 50px auto;
+}
+
+.rideHeader2{
+    font-size: xxx-large;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.ridersImage{
+    width: 90%;
+    margin: 0 auto 40px;
+}
+
+.riderContainerFlex{
+    display: flex;
+    gap: 30px;
+}
+
+.flexBox1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rideContainer4{
+    width: 90%;
+    margin: 110px auto;
+}
+
+.riderContainerFlex2{
+    display: flex;
+    gap: 50px;
+    margin: 40px 0;
+}
+
+.flexBox2{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.rideContainer5{
+    width: 82%;
+    margin: 0 auto 90px;
+}
+
+.riderContainerFlex3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexBox3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: min-content;
+}
+
+.rideSession{
+    background-color: rgb(240, 237, 237);
+    padding: 50px 0;
+    margin-bottom: 60px;
+}
+
+.rideContainer6{
+    width: 70%;
+    margin:  auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexBox4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap: 20px;
+}
+
+.rideHeader3{
+    font-size: xx-large;
+}
+
+.rideButton2{
+    width: 180px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    height: 55px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.rideButton2:hover{
+    background-color: rgb(28, 27, 27);
+}
+
+/* frequently asked question session styling */
+
+.rideContainer7{
+    width: 90%;
+    margin: 0 auto 60px;
+}
+
+.faqContent2 {
+    margin: 10px 10px 0px;
+    width: 100%;
+    height: auto;
+    background-color: #F4F4F4;
+}
+
+.faqContent2 details {
+  font-size: 1rem;
+  background: #ffffff;
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border-bottom: 1px solid rgb(198, 194, 194);
+  padding-bottom: 10px;
+  
+}
+
+  summary{
+    margin-bottom: 30px;
+  }
+
+  .summary-content2{
+    margin-left: 20px ;
+    line-height: 25px;
+  }
+
+ .summary-title2 {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+    font-weight: 600;
+}
+.faqContent2 details:hover {
+  cursor: pointer;
+}
+
+.faqContent2 details summary {
+  list-style: none;
+  padding: 5px 25px;
+  margin-bottom: 9px;
+}
+
+.faqContent2 details summary:focus {
+  outline: none;
+}
+.faqContent2 details summary:hover .summary-chevron-up svg {
+  opacity: 1;
+}
+.faqContent2 details .summary-chevron-up svg {
+  opacity: 0.5;
+}
+.faqContent2 details .summary-chevron-up,
+.faqContent2 details .summary-chevron-down {
+  pointer-events: none;
+  position: absolute;
+  top: 0.75em;
+  right: 1em;
+  background: #ffffff;
+}
+.faqContent2 details .summary-chevron-up svg,
+.faqContent2 details .summary-chevron-down svg {
+  display: block;
+  
+  
+}
+.faqContent2 details .feather-chevron-down {
+    float: right;
+    width: 50px;
+}
+.faqContent2 details summary::-webkit-details-marker {
+  display: none;
+}
