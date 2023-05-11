@@ -1,0 +1,42 @@
+.helpSection1{
+    background-image: url(/public/beach-waves.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.helpSection1__content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.helpHeader{
+    font-size: xxx-large;
+    margin-top: 20px;
+}
+
+.helpFlex{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.helpflexBox{
+    width: 150px;
+    height: 170px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: black;
+}
+
+.noDecor{
+    text-decoration: none;
+}

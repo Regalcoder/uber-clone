@@ -1,0 +1,80 @@
+.moneySection1{
+    background-image: url(/public/uber-money.jpg);
+    /* position: absolute; */
+    width: 100%;
+    height: 80vh;
+}
+
+.moneyHeader1{
+    position: relative;
+    font-size: xxx-large;
+    top: 250px;
+    left: 50px;
+    width: 400px;
+    
+}
+
+.moneySection2{
+    background-color: rgb(255, 251, 251);
+    padding: 50px 80px;
+}
+
+.moneyContainer1{
+    width: 80%;
+}
+
+.moneyHeader2{
+    font-size: xx-large;
+    width: 630px;
+    margin-bottom: 30px;
+}
+
+.moneyTexts{
+    width: 800px;
+}
+
+.moneySection3{
+    background-color: rgb(255, 255, 255);
+    padding: 0 0 40px;
+}
+
+.moneyContainer2{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.moneyFlex1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    width: 450px;
+}
+
+.moneyHeader3{
+    font-size: xx-large;
+}
+
+.moneySection4{
+    background-image: url(/public/skycraper.png);
+    background-size: cover;
+    height: 80vh;
+}
+
+.moneyContainer3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(24, 23, 23);
+    width: 500px;
+    gap: 15px;
+    position: relative;
+    top: 150px;
+    left: 80px;
+}
+
+.moneyHeader4{
+    font-size: xx-large;
+}

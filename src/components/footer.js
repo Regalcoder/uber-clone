@@ -7,14 +7,14 @@ const Footer = () => {
           <footer>
             <Link to='/' className='Uber'>Uber</Link>
             <div className='cont'>
-               <Link className='visit' to=''>Visit Help Center</Link>
+               <Link className='visit' to='/help'>Visit Help Center</Link>
             </div>
             
             <section className='footerFlex'>
                 <div className='footerMenu'>
                     <h3 className='footerHeader'>Company</h3>
                     <Link className='footerMenuItems' to='/aboutUs'>About us</Link>
-                    <Link className='footerMenuItems' to=''>Our offerings</Link>
+                    <Link className='footerMenuItems' to='/help'>Our offerings</Link>
                 </div>
                 <div className='footerMenu'>
                     <h3 className='footerHeader'>Products</h3>
@@ -27,7 +27,7 @@ const Footer = () => {
                 </div>
                 <div className='footerMenu'>
                     <h3 className='footerHeader'>Travel</h3>
-                    <Link className='footerMenuItems'>Cities</Link>
+                    <Link className='footerMenuItems' to='/help'>Cities</Link>
                 </div>
             </section>
             <section className='buttonsFlex'>
