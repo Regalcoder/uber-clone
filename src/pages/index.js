@@ -47,7 +47,7 @@ const Home = () => {
   return (
     <>
       <Navbar />
-    <div className="body">
+    {/* <div className="body">
       <section className="container">
         <img className="image" src={selectedData.backImage} alt="" />
         <div className="main">
@@ -78,7 +78,7 @@ const Home = () => {
             ) : (     
               <>   
               {/* the bracket used above is used to capture the conditional statement that must be carried out when a condition is reached. everything contained in the bracket is treated as single */}
-                 <div className="inputContainer">
+               {/*  <div className="inputContainer">
                     <input className="inputBox" type="text" placeholder="Enter pickup location"/>
                         <Link className="sendIcon">
                           <svg aria-hidden="true" focusable="false" width="16px" height="16px" fill="currentColor" viewBox="0 0 24 24" tabindex="0" role="button" aria-label="Locate me" class="pe-location-fetch css-jeUcem">
@@ -199,7 +199,7 @@ const Home = () => {
       </section>
       <Footer/>
      
-    </div>  
+    </div>   */}
     </>
   );
 };
