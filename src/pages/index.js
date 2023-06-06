@@ -47,8 +47,9 @@ const Home = () => {
   return (
     <>
       <Navbar />
-    {/* <div className="body">
-      <section className="container">
+     <div className="body">
+      <br/><br/><br/>
+      {/* <section className="container">
         <img className="image" src={selectedData.backImage} alt="" />
         <div className="main">
           <div className="tabs">
@@ -76,9 +77,9 @@ const Home = () => {
                 </div>
               </>  
             ) : (     
-              <>   
+              <>     */}
               {/* the bracket used above is used to capture the conditional statement that must be carried out when a condition is reached. everything contained in the bracket is treated as single */}
-               {/*  <div className="inputContainer">
+                  {/* <div className="inputContainer">
                     <input className="inputBox" type="text" placeholder="Enter pickup location"/>
                         <Link className="sendIcon">
                           <svg aria-hidden="true" focusable="false" width="16px" height="16px" fill="currentColor" viewBox="0 0 24 24" tabindex="0" role="button" aria-label="Locate me" class="pe-location-fetch css-jeUcem">
@@ -99,8 +100,8 @@ const Home = () => {
             )}
           </div>
         </div>
-      </section>
-      <section className="container2">
+      </section> */}
+   {/*   <section className="container2">
         <img className="backImage2" src="empirestate.jpg" alt=""/>
         <div className="subContainer">
           <h1 className="headerText">Uber for Business</h1>
@@ -186,7 +187,7 @@ const Home = () => {
                 </div>
             </Link>
           </div>
-      </section>
+      </section>  
       <section className="container5">
         <Link to='#' class="arrow-button">
           <h1>Sign up to drive</h1>
@@ -196,10 +197,12 @@ const Home = () => {
           <h1>Sign up to ride</h1>
           <span class="arrow2"></span>
         </Link>
-      </section>
-      <Footer/>
+      </section>   */}
+      
      
-    </div>   */}
+    </div>   
+    <Footer/>
+    
     </>
   );
 };

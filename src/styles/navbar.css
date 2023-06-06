@@ -356,7 +356,7 @@
   transition: all 0.5s ease-in-out;
   width: 100%;
   background-color: white;
-  height: 140vh;
+  height: 100vh;
   overflow-y: scroll;
   z-index: 100;
   margin: 0;
@@ -377,7 +377,7 @@
   .cross{
     border-radius: 50px;
     padding: 10px;
-    background-color: gray;
+    background-color: rgb(78, 77, 77);
   }
 
   .buttonFlex{
@@ -581,4 +581,24 @@
   width: 80%;
 }
 
+}
+
+@media (max-width: 427px) {
+  .dropdown {
+    width: 80%;
+    margin: 40px 30px 70px ;
+  } 
+  
+  .dropdown .dropbtn {
+    font-size: large; 
+  }
+
+  .safety{
+    font-size: large;
+    margin: 0 30px 0px;
+  }
+  .dropdown2 {
+    width: 80%;
+    margin: 90px 30px 0;
+  }
 }
