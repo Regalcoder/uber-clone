@@ -137,7 +137,7 @@ const Navbar = () => {
                         <button onClick={() => Toggle2()}  className='signUp'>Sign Up</button>
                     </div>
                     <button onClick={() => mobileMenu()} className='mobile-menu-icon' >
-                        {Mobile? <ImCross /> : <RxHamburgerMenu/>}
+                        {Mobile? <ImCross className='cross' /> : <RxHamburgerMenu/>}
                     </button>
                 </div>
                 
