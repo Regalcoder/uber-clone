@@ -46,10 +46,9 @@ const Home = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
      <div className="body">
-      <br/><br/><br/>
-      {/* <section className="container">
+       <section className="container">
         <img className="image" src={selectedData.backImage} alt="" />
         <div className="main">
           <div className="tabs">
@@ -77,9 +76,9 @@ const Home = () => {
                 </div>
               </>  
             ) : (     
-              <>     */}
+              <>     
               {/* the bracket used above is used to capture the conditional statement that must be carried out when a condition is reached. everything contained in the bracket is treated as single */}
-                  {/* <div className="inputContainer">
+                   <div className="inputContainer">
                     <input className="inputBox" type="text" placeholder="Enter pickup location"/>
                         <Link className="sendIcon">
                           <svg aria-hidden="true" focusable="false" width="16px" height="16px" fill="currentColor" viewBox="0 0 24 24" tabindex="0" role="button" aria-label="Locate me" class="pe-location-fetch css-jeUcem">
@@ -100,8 +99,8 @@ const Home = () => {
             )}
           </div>
         </div>
-      </section> */}
-   {/*   <section className="container2">
+      </section> 
+      <section className="container2">
         <img className="backImage2" src="empirestate.jpg" alt=""/>
         <div className="subContainer">
           <h1 className="headerText">Uber for Business</h1>
@@ -169,12 +168,12 @@ const Home = () => {
         </div>
       </section>
       <section className="container4">
-        <h1 className="heading">There's more to love in the apps</h1>
+        <h1 className="heading2">There's more to love in the apps</h1>
         <div className="containerFlex">
           
             <Link className="containerFlex1" to='https://skuo.app.link/Wnc0AB7j0ib?%243p=a_custom_47734&%24uri_redirect_mode=1&uclick_id=138ae22a-f799-4b38-b262-3730b5c3aa13&~campaign=uber-com-homepage-block&~tune_publisher_sub1=a5ad1b1d-fff6-4e2a-96f9-1c0fb579b5b9'>
                 <div className="flex arrow">
-                  <img height='155px' src="driver-app-logo.webp" alt=""/>
+                  <img className="imageMobile" height='155px' src="driver-app-logo.webp" alt=""/>
                   <h3 className="noLink">Download the driver app</h3>
                 </div>
             </Link>
@@ -182,7 +181,7 @@ const Home = () => {
           
             <Link className="containerFlex1" to='https://ocie.app.link/6qlyRoi7dfb?%243p=a_custom_47734&uclick_id=138ae22a-f799-4b38-b262-3730b5c3aa13&~tune_publisher_sub1=a5ad1b1d-fff6-4e2a-96f9-1c0fb579b5b9'>
                 <div className="flex arrow">
-                  <img height='155px' src="rider-app-logo.webp" alt=""/>
+                  <img className="imageMobile" height='155px' src="rider-app-logo.webp" alt=""/>
                   <h3 className="noLink">Download the uber app</h3>
                 </div>
             </Link>
@@ -190,18 +189,18 @@ const Home = () => {
       </section>  
       <section className="container5">
         <Link to='#' class="arrow-button">
-          <h1>Sign up to drive</h1>
+          <h1 className="headingSize">Sign up to drive</h1>
           <span class="arrow2"></span>
         </Link>
         <Link to='#' class="arrow-button">
-          <h1>Sign up to ride</h1>
+          <h1 className="headingSize">Sign up to ride</h1>
           <span class="arrow2"></span>
         </Link>
-      </section>   */}
+      </section>   
       
      
     </div>   
-    <Footer/>
+    {/* <Footer/> */}
     
     </>
   );
