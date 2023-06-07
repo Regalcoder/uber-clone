@@ -46,7 +46,7 @@ const Home = () => {
 
   return (
     <>
-      {/* <Navbar /> */}
+     <Navbar /> 
      <div className="body">
        <section className="container">
         <img className="image" src={selectedData.backImage} alt="" />
@@ -103,7 +103,7 @@ const Home = () => {
       <section className="container2">
         <img className="backImage2" src="empirestate.jpg" alt=""/>
         <div className="subContainer">
-          <h1 className="headerText">Uber for Business</h1>
+          <h1 className="headerText headText2">Uber for Business</h1>
           <p className="paraText">Transform the way your company moves and feeds its people</p>
           <Link to='/'>
               <button className="seeButton">see how</button>
@@ -112,7 +112,7 @@ const Home = () => {
         
       </section>
       <section className="container3">
-        <h1 className="headertext">Focused on safety, wherever you go</h1>
+        <h1 className="headertext headtext3">Focused on safety, wherever you go</h1>
         <div className="subContainerFlex">
           <div className="flex1">
             <img className="image1" src="Safety_Home_Img2x.png" alt=""/>
@@ -200,7 +200,7 @@ const Home = () => {
       
      
     </div>   
-    {/* <Footer/> */}
+     <Footer/> 
     
     </>
   );

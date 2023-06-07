@@ -726,8 +726,14 @@ body {
     background-color: rgba(109, 109, 108, 0.655);
   }
 
-  .headertext{
-    margin: 60px 20px 30px;
+  .headtext3{
+    margin: 50px 20px 30px;
+    font-size: x-large;
+    width: 90%;
+  }
+
+  .headText2{
+    margin: 20px 20px 30px;
     font-size: x-large;
     width: 80%;
   }
@@ -795,6 +801,117 @@ body {
     font-size: large;
     width: 100%;
   }
+
+  .container5{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .arrow-button {
+    width: 80%;
+    margin: 30px auto ;
+  }
+  
+}
+
+@media (max-width: 380px) {
+
+  .texts{
+    margin: 20px 0;
+    font-size: medium;
+    min-width: 100%;
+  }
+  .subContainer{
+    width: 80%;
+    height: auto;
+    background-color: rgba(109, 109, 108, 0.655);
+  }
+
+  .headText2{
+    margin: 20px 20px 30px;
+    font-size: x-large;
+    width: 80%;
+  }
+}
+
+@media (max-width: 325px) {
+  .tabs {
+    justify-content: unset;
+    gap: 80px; 
+  }
+
+  .header{
+    font-size: x-large;
+  }
+
+  .row{
+    flex-direction: column;
+    gap: 0px;
+  }
+  
+  .column{
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .texts{
+    margin: 20px 0;
+    font-size: medium;
+    min-width: 100%;
+  }
+  
+  .button{
+    width: 120px;
+    font-size: small;
+  }
+
+  .subContainer{
+    width: 90%;
+    height: auto;
+  }
+  
+  .headText2{
+    font-size: large;
+  }
+  
+  .paraText{
+    font-size: medium;
+  }
+  
+  .seeButton{
+    width: 80px;
+    background-color: black;
+    font-size: small;
+  }
+
+  .headtext3{
+    margin: 60px 20px 30px;
+    font-size: large;
+  }
+
+  .heading2{
+    margin: 20px 0 30px 20px;
+    width: fit-content;
+    font-size: x-large;
+  }
+
+  .flex{
+    margin: 10px;
+  }
+
+  .noLink{
+    color: black;
+    font-size: large;
+  }
+
+  .headingSize{
+    font-size: x-large;
+  }
+  
   
 }
 

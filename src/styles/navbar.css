@@ -357,7 +357,7 @@
   width: 100%;
   background-color: white;
   height: 100vh;
-  overflow-y: scroll;
+  overflow: auto;
   z-index: 100;
   margin: 0;
   padding: 0;
@@ -393,7 +393,7 @@
   overflow: scroll;
   background-color: white;
   width: 90%;
-  margin: 40px 40px 70px ;
+  margin: 40px 40px 50px ;
   height: auto;
 }
 
@@ -430,7 +430,7 @@
   background-color: white;
   min-width: 180px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 0;
   overflow: scroll;    
 }
 /* company drop down menu end */
@@ -466,7 +466,7 @@
   .dropdown2 {
     background-color: rgb(214, 207, 207);
     width: 90%;
-    margin: 90px 40px 0;
+    margin: 50px 40px 0;
     border-radius: 10px;
   }
 
@@ -566,7 +566,7 @@
 
 .dropdown {
   width: 80%;
-  margin: 40px 40px 70px ;
+  margin: 40px 40px 50px ;
 } 
 
 .dropdown .dropbtn {
@@ -583,10 +583,10 @@
 
 }
 
-@media (max-width: 427px) {
+@media (max-width: 325px) {
   .dropdown {
     width: 80%;
-    margin: 40px 30px 70px ;
+    margin: 40px 30px 40px ;
   } 
   
   .dropdown .dropbtn {
@@ -599,6 +599,6 @@
   }
   .dropdown2 {
     width: 80%;
-    margin: 90px 30px 0;
+    margin: 50px 30px 0;
   }
 }
