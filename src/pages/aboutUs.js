@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const AboutUs = () => {
     return ( 
         <>
-          <Navbar />
+            <Navbar /> 
             <body className="aboutBody">
                 <section className="backImageAbout">
                     <h1 className="header1">About us</h1>
@@ -62,9 +62,9 @@ const AboutUs = () => {
                 <section className="section3">
                     <div className="section3Flex">
                         <div className="flexbox1">
-                           <img width='550px' src='Sustainability.jpg' alt='' />
+                           <img className="mobileImageSize" width='550px' src='Sustainability.jpg' alt='' />
                         </div>
-                        <div>
+                        <div className="sustainMobile">
                             <h1 className="header3">Sustainability</h1>
                             <p className="texts2">Uber is committing to becoming a fully electric, zero-emission platform by 2040, with 100% of rides
                                taking place in zero-emission vehicles, on public transit, or with micromobility. It is our 
@@ -81,7 +81,7 @@ const AboutUs = () => {
                 <section className="section3">
                     <div className="section3Flex">
                         <div className="flexbox1">
-                           <img width='550px' src='UberIM_20250-medium-(2).webp' alt='' />
+                           <img className="mobileImageSize"  width='550px' src='UberIM_20250-medium-(2).webp' alt='' />
                         </div>
                         <div className="flexbox2">
                             <h1 className="header3">Rides and beyond</h1>
@@ -115,16 +115,16 @@ const AboutUs = () => {
                             </p>
                             <Link className="linkText" to=''>Learn more</Link>
                         </div>
-                        <div className="flexbox1">
-                           <img width='550px' src='_background-01.svg' alt='' />
+                        <div className="flexbox1 flexboxMobile">
+                           <img className="mobileImageSize"  width='550px' src='_background-01.svg' alt='' />
                         </div>
                     </div>
                 </section>
                 <section className="section4">
                     <h1 className="header4">Company info</h1>
                     <div className="flexthree">
-                        <div>
-                            <img width='350px' src="conference.webp" alt='' />
+                        <div className="flexContentMobile">
+                            <img className="infoImageMobile" width='350px' src="conference.webp" alt='' />
                             <h3 className="header5">Who's driving Uber</h3>
                             <p className="texts3">We’re building a culture within Uber that emphasizes 
                                 doing the right thing, period, for riders, 
@@ -133,8 +133,8 @@ const AboutUs = () => {
                             </p>
                             <Link className="linkText" to=''>See our leadership</Link>
                         </div>
-                        <div>
-                            <img width='350px' src="people.webp" alt='' />
+                        <div className="flexContentMobile2">
+                            <img className="infoImageMobile" width='350px' src="people.webp" alt='' />
                             <h3 className="header5">Getting diversity right</h3>
                             <p className="texts3">It’s our goal to create a workplace that is inclusive 
                                 and reflects the diversity of the cities we serve—where 
@@ -146,8 +146,8 @@ const AboutUs = () => {
                             </p>
                             <Link className="linkText" to=''>Read about diversity</Link>
                         </div>
-                        <div>
-                            <img width='350px' src="developers.webp" alt='' />
+                        <div className="flexContentMobile">
+                            <img className="infoImageMobile" width='350px' src="developers.webp" alt='' />
                             <h3 className="header5">Acting with integrity</h3>
                             <p className="texts3">Uber's Ethics & Compliance Program Charter outlines our 
                                 commitment to integrity at the highest levels within the 
@@ -186,7 +186,7 @@ const AboutUs = () => {
                     </div>
                 </section>
             </body>
-          <Footer />
+            <Footer /> 
         </>
      );
 }
