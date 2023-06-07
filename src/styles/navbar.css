@@ -66,6 +66,14 @@
     justify-content: center;
     gap: 10px;
 }  
+
+.dropdownNone{
+  display: none;
+}
+
+.dropdownNone2{
+  display: none;
+}
   
   .dropdown .dropbtn {
     font-size: 16px;  
@@ -395,6 +403,10 @@
   width: 90%;
   margin: 40px 40px 50px ;
   height: auto;
+}
+
+.dropdown1{
+  display: none;
 }
 
 .dropbtn {
