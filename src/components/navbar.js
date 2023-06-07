@@ -98,10 +98,10 @@ const Navbar = () => {
                             </button>
                             <div className={content ? 'dropdown-content' : 'dropdownNone'} >
                                 <Link to="/aboutUs">About us</Link>
-                                <Link to="/aboutUs">Our offerings</Link>
+                                <Link to="/help">Help</Link>
                                 <Link to="/aboutUs">How Uber works</Link>
-                                <Link to="/aboutUs">Global citizenship</Link>
-                                <Link to="/aboutUs">Newsroom</Link>
+                                <Link to="/help">Global citizenship</Link>
+                                <Link to="/help">Newsroom</Link>
                             </div>
                         </div>
                         <Link to='/safety'><button className='safety'>Safety</button></Link>
