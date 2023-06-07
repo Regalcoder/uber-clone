@@ -127,3 +127,120 @@
 .lastLink{
     color: black;
 }
+
+@media (max-width: 435px) {
+    .formSection{
+        margin: 40px 0 10px;
+    }
+    .formHeader{
+        font-weight: 400;
+        font-size: larger;
+    }
+    
+    .ForminputBox{
+        width: 70%;
+        font-size: medium;
+        padding-left: 20px;
+        height: 40px;
+    }
+
+    .formButton{
+        width: 320px;
+        height: 40px;
+        font-size: medium;
+    }
+
+    .googleButton{
+        width: 320px;
+        height: 40px;
+        font-size: medium;
+        cursor: pointer;
+    }
+
+    .iconSize{
+        width: 14px;
+    }
+
+    .googleButton2{
+        width: 320px;
+        height: 40px;
+        font-size: medium;
+    }
+
+    .iconSize2{
+        width: 18px;
+    }
+
+    .googleButton3{
+        width: 320px;
+        height: 40px;
+        font-size: medium;
+    }
+
+    .iconSize3{
+        width: 16px;
+    }
+
+    .termsText{
+        width: 60%;
+        line-height: 20px;
+        font-size: small;
+        color: rgb(125, 122, 122);
+    }
+}
+
+@media (max-width: 325px) {
+    
+    .formHeader{
+        font-size: medium;
+    }
+    
+    .ForminputBox{
+        width: 60%;
+        font-size: small;
+        height: 30px;
+    }
+
+    .formButton{
+        width: 220px;
+        height: 30px;
+        font-size: small;
+    }
+
+    .googleButton{
+        width: 220px;
+        height: 30px;
+        font-size: small;
+    }
+
+    .iconSize{
+        width: 11px;
+    }
+
+    .googleButton2{
+        width: 220px;
+        height: 30px;
+        font-size: small;
+    }
+
+    .iconSize2{
+        width: 14px;
+    }
+
+    .googleButton3{
+        width: 220px;
+        height: 30px;
+        font-size: small;
+    }
+
+    .iconSize3{
+        width: 12px;
+    }
+
+    .termsText{
+        width: 60%;
+        line-height: 20px;
+        font-size: small;
+        color: rgb(125, 122, 122);
+    }
+}
