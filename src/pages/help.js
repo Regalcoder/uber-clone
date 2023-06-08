@@ -13,7 +13,7 @@ const Help = () => {
                     <h1 className='helpHeader'>Welcome to Uber Support</h1>
                     <p>How can we help?</p>
                     <div className='helpFlex'>
-                        <Link to='/ride.js' className='noDecor'>
+                        <Link to='/ride' className='noDecor'>
                             <div className='helpflexBox'>
                             <svg width="28px" height="28px" viewBox="0 0 24 24" fill="none">
                                 <title>Car front</title>
@@ -22,7 +22,7 @@ const Help = () => {
                             <h3>Riders</h3>
                         </div>
                         </Link>
-                        <Link className='noDecor' to='/money.js'>
+                        <Link className='noDecor' to='/money'>
                             <div className='helpflexBox'>
                                 <img src='money.svg' alt='money' />
                                 <h3>Money</h3>

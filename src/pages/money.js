@@ -7,7 +7,7 @@ const Money = () => {
     return ( 
         <>
           <Navbar />
-          <body>
+          <body className='moneyBody'>
              <section className="moneySection1">
                 <h1 className="moneyHeader1">Introducing Uber Money</h1>
              </section>
@@ -24,21 +24,21 @@ const Money = () => {
                <div className="moneyContainer2">
                   <div className="moneyFlex1">
                      <h1 className="moneyHeader3">Uber Wallet</h1>
-                     <p>Wallet is the new home for your money on Uber. 
+                     <p className="mobileTexts">Wallet is the new home for your money on Uber. 
                         Easily track your earning and spending history, 
                         manage and move your money, and discover new 
                         financial products all in one place.
                      </p>
                   </div>
                   <div className="moneyFlex2">
-                     <img height='597.5' src="money-phone.webp" alt="big phone" />
+                     <img className="phoneResize" height='597.5' src="money-phone.webp" alt="big phone" />
                   </div>
                </div>
              </section>
              <section className="moneySection4">
                <div className="moneyContainer3">
                   <h1 className="moneyHeader4">Uber Pay</h1>
-                  <p>Uber Pay lets partners integrate seamlessly 
+                  <p className="moneyTexts2">Uber Pay lets partners integrate seamlessly 
                      with our platform. Use our API to easily 
                      enable new payment methods on Uber and grow 
                      your transaction volume, or delight your 

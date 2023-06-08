@@ -3,6 +3,8 @@
     /* position: absolute; */
     width: 100%;
     height: 80vh;
+     background-repeat: repeat; 
+      background-size: auto; 
 }
 
 .moneyHeader1{
@@ -15,7 +17,7 @@
 }
 
 .moneySection2{
-    background-color: rgb(255, 251, 251);
+    background-color: rgb(236, 236, 236);
     padding: 50px 80px;
 }
 
@@ -77,4 +79,108 @@
 
 .moneyHeader4{
     font-size: xx-large;
+}
+
+.moneyTexts2{
+    color: black;
+    font-weight: 500;
+}
+
+@media (max-width: 775px) {
+    .moneySection2{
+        background-color: rgb(236, 236, 236);
+        padding: 0;
+        width: 100%;
+        /* margin: 30px auto; */
+        color: rgb(66, 65, 65);
+    }
+
+    .moneyHeader1{
+        top: 200px;
+        
+    }
+
+    .moneyContainer1{
+        width: 90%;
+        margin: auto;
+        padding: 50px 0;
+    }
+
+    .moneyHeader2{
+        width: 90%;
+    }
+    
+    .moneyTexts{
+        width: 90%;
+    }
+
+    .moneyContainer2{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* .moneyContainer3{
+        width: 100%;
+    } */
+
+    .moneyFlex1{
+        width: 90%;
+        margin-top: 40px;
+        color: rgb(66, 66, 66);
+    }
+
+    .mobileTexts{
+        width: 80%;
+    }
+}
+
+@media (max-width: 435px) {
+    .moneyBody{
+        overflow-x: hidden;
+    }
+    .moneyHeader1{
+        position: relative;
+        font-size: xxx-large;
+        top: 195px;
+        left: 20px;
+        width: 100%;
+        
+    }
+
+    .mobileTexts{
+        width: 100%;
+    }
+
+    .phoneResize{
+        height: 90vh;
+    }
+
+    .moneyContainer3{
+        top: 100px;
+        left: 20px;
+        width: 100%;
+    }
+    
+    .moneyHeader4{
+        font-size: xx-large;
+    }
+    
+    .moneyTexts2{
+        width: 70%;
+    }
+}
+
+@media (max-width: 385px) {
+    .moneyContainer3{
+        top: 70px;
+        left: 20px;
+    }
+    .moneyTexts2{
+        width: 50%;
+    }
+
+    .phoneResize{
+        height: 70vh;
+    }
 }
