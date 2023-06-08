@@ -18,7 +18,7 @@ const Ride = () => {
               </Link>
             </div>
             <div className="rideContainer2">
-              <img width="400px" src="travelling.webp" alt="" />
+              <img className="rideImageMobile" width="400px" src="travelling.webp" alt="" />
             </div>
           </div>
         </section>
@@ -26,7 +26,7 @@ const Ride = () => {
           <div className="rideContainer3">
             <h1 className="rideHeader2">Why use the Uber app?</h1>
             <div className="ridersImage">
-               <img src="animated-riders.svg" alt='animated riders' />
+               <img className="driving" src="animated-riders.svg" alt='animated riders' />
             </div>
             <div className="riderContainerFlex">
                <div className="flexBox1">
@@ -49,7 +49,7 @@ const Ride = () => {
         </section>
         <section>
          <div className="rideContainer4">
-            <h1 className="rideHeader2">Your safety matters</h1>
+            <h1 className="rideHeader2 riderheader2">Your safety matters</h1>
             <p>Peace of mind is designed into your experience</p>
             <div className="riderContainerFlex2">
                <div className="flexBox2">
@@ -85,7 +85,7 @@ const Ride = () => {
             <h1 className="rideHeader2">Everywhere that you travel</h1>
             <div className="riderContainerFlex3">
                <div className="flexBox3">
-                  <img width='500' src="cities.webp" alt="landmark cities" />
+                  <img className="visitingImages" width='500' src="cities.webp" alt="landmark cities" />
                   <h3>10,000+ cities</h3>
                   <p>The app is available in thousands of
                      cities worldwide, so you can request
@@ -93,7 +93,7 @@ const Ride = () => {
                   </p>
                </div>
                <div className="flexBox3">
-                  <img width='500' src="traveler.webp" alt="landmark cities" />
+                  <img className="visitingImages" width='500' src="traveler.webp" alt="landmark cities" />
                   <h3>600+ airports</h3>
                   <p>You can get a ride to and from most
                      major airports. Schedule a ride to 
@@ -106,7 +106,7 @@ const Ride = () => {
         </section>
         <section className="rideSession">
          <div className="rideContainer6">
-            <img height='350' src="womanwithphone.svg" alt="woman with phone" />
+            <img className="woman" height='350' src="womanwithphone.svg" alt="woman with phone" />
             <div className="flexBox4">
                <h1 className="rideHeader3">Ways people move around the world</h1>
                <p>The Uber app gives you the power to 

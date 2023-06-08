@@ -229,3 +229,181 @@
 .faqContent2 details summary::-webkit-details-marker {
   display: none;
 }
+
+/* tablet view  */
+@media (max-width: 770px) {
+    .rideSection{
+        width: 100%;
+        height: auto;   
+    }
+    .rideFlex{
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+
+    .rideContainer2{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .rideImageMobile{
+        width: 100%;
+    }
+
+    .rideContainer1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .riderContainerFlex{
+        flex-direction: column;
+    }
+
+    .flexBox1{
+        width: 70%;
+    }
+
+    .ridersImage{
+        width: 60%;
+        margin: 0 0 40px;
+        display: flex;
+        align-items: flex-start; 
+        justify-content: right;
+    }
+
+    .riderContainerFlex2{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin: 40px 0;
+    }
+
+    .rideHeader1{
+        font-size: xx-large;
+        margin-bottom: 20px;
+    }
+
+    .rideHeader2{
+        font-size: xx-large;
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+
+    .flexBox2{
+        width: 70%;
+    }
+
+    .rideContainer5{
+        width: 90%;
+        margin: 0 auto 90px;
+    }
+
+    .riderContainerFlex3{
+        justify-content: unset;
+        gap: 30px;
+    }
+
+    .visitingImages{
+        width: 100%;
+    }
+
+    .flexBox3{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 45%;
+    }
+
+    .rideContainer6{
+        width: 80%;
+        margin:  auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        gap: 30px;
+    }
+
+    .woman{
+        height: 45vh;
+    }
+
+    .flexBox4{
+        width: 100%;
+        gap: 20px;
+    }
+
+    /* .driving{
+        width: 100%;
+    }  */
+}
+
+@media (max-width: 430px) {
+
+    .rideButton{
+        width: 120px;
+        font-size: small;
+    }
+    .ridersImage{
+        width: 70%;
+        margin: 0 0 40px;
+        display: flex;
+        align-items: unset; 
+        justify-content: center;
+    }
+
+    /* .driving{
+        height: 100%;
+    }  */
+
+    .rideHeader1{
+        font-size: x-large;
+        margin-bottom: 40px;
+    }
+
+    .rideHeader2{
+        font-size: x-large;
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+    .riderheader2{
+        font-size: x-large;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    .flexBox2{
+        width: 90%;
+    }
+
+    .riderContainerFlex3{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .flexBox3{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .rideContainer6{
+        width: 90%;
+        margin:  auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        gap: 30px;
+    }
+
+    .rideHeader3{
+        font-size: x-large;
+    }
+
+    .rideButton2{
+        width: 130px;
+        font-size: small;
+    }
+
+}

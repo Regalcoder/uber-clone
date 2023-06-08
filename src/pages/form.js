@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
 import '../styles/forms.css'
+import Navbar from "../components/navbar";
 
 const Register = () => {
     return ( 
         <>
+        <Navbar /> 
         <body>
             <section className="formSection">
                <h1 className="formHeader">What's your phone number or email?</h1>
