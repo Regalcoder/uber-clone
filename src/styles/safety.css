@@ -162,5 +162,153 @@
   .finalParag{
     margin: 0 60px 40px;
   }
+
+
+  /* tablet view */
+  @media (max-width: 770px) {
+    .container1{
+      flex-direction: column-reverse;
+      margin: 50px auto;
+      width: 90%;
+      gap: 40px;
+    }
+
+    .subContainer1{
+      width: 100%;
+    }
+
+    .headerText1{
+      margin-bottom: 10px;
+    }
+
+    .smilingMum{
+      width: 100%;
+    }
+
+    .nextSub{
+      width: 80%;
+      height: auto;
+      margin: 150px 50px;
+    }
+
+    .nextSection2{
+      width: 90%;
+      margin: auto auto 50px;
+    }
+
+    .headertexts2{
+      font-size: xx-large;
+      margin-bottom: 30px;
+    }
+
+    .subFlex{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      gap: 40px;
+    }
+
+    .subContainers{
+      width: 45%;
+    }
+
+    .subFlex2{
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .box{
+      height: 500px;
+      width: 100%;
+    }
+    
+    .driverSmile{
+      width: 100%;
+    }
+
+    .nextsection3{
+      width: 92%;
+      margin: 140px auto 0px;
+    }
+
+    .subFlex3{
+      flex-direction: column;
+      gap: 40px;
+    }
+
+    .subcontainers3{
+      margin: 0;
+      width: 70%;
+    }
+
+    .nextSection5{
+      gap: 100px;
+      height: 25vh;
+      padding: 60px 40px 0;
+    }
+
+    .finalParag{
+      margin: 0 40px 40px;
+    }
+  }
+
+  @media (max-width: 430px) {
+    .headerText1{
+      font-size: xx-large;
+      color: rgb(65, 63, 63);
+      margin-bottom: 40px;
+    }
+
+    .nextSub{
+      width: 90%;
+      height: auto;
+      margin: 70px auto;
+    }
+
+    .headertexts2{
+      font-size: x-large;
+      margin-bottom: 30px;
+    }
+
+    .headerTexts3{
+      font-size: x-large;
+    }
+
+    .subContainers{
+      width: 90%;
+    }
+
+    .headerTexts4{
+      font-size: x-large;
+    }
+
+    .subFlex2{
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+    }
+
+    .subcontainers2{
+      padding-top: 70px;
+    }
+
+    .subcontainers3{
+      margin: 0;
+      width: 100%;
+    }
+
+    .nextSection5{
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      height: auto;
+      padding: 10px 20px;
+    }
+
+    .finalParag{
+      margin: 90px 20px 40px;
+    }
+  }
   
   

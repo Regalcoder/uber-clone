@@ -19,7 +19,7 @@ const Safety = () => {
                         </p>
                     </div>
                     <div className="subContainer1">
-                        <img src="smiling-mum.webp" width='550px' alt=""/>
+                        <img className="smilingMum" src="smiling-mum.webp" width='550px' alt=""/>
                     </div>
                 </div>
               </section>
@@ -61,7 +61,7 @@ const Safety = () => {
                 <h1 className="headerTexts4">Building safer journeys for everyone</h1>
                 <div className="subFlex2">
                     <div className="box">
-                        <img width='550px' src='smiling-guy.webp' alt='guy sitting on car' />
+                        <img className="driverSmile" width='550px' src='smiling-guy.webp' alt='guy sitting on car' />
                         <h3 className="subHeaders">Driver safety</h3>
                         <p className="paragraphs">Count on 24/7 support to help with any questions or 
                             safety concerns. Share your trip with loved ones. 
@@ -70,7 +70,7 @@ const Safety = () => {
                         </p>
                     </div>
                     <div className="box">
-                        <img  width='550px' src='girl-hat.webp' alt='smiling girl wearing a hat' />
+                        <img className="driverSmile" width='550px' src='girl-hat.webp' alt='smiling girl wearing a hat' />
                         <h3 className="subHeaders">Ride safety</h3>
                         <p>Millions of rides are requested every day. 
                             Every rider has access to safety features 
@@ -92,7 +92,7 @@ const Safety = () => {
               </section>
               <section>
                 <div className="subFlex3">
-                    <div><img width='520px' src='smilig-mama.webp' alt='beautiful woman smiling' /></div>
+                    <div><img className="driverSmile" width='520px' src='smilig-mama.webp' alt='beautiful woman smiling' /></div>
                     <div className="subcontainers3">
                         <h1 className="headerTexts5">Partnering to make a difference</h1>
                         <p className="paragraphs3">Our commitment to safety goes beyond your ride. 
